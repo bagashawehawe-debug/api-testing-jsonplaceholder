@@ -1,4 +1,7 @@
 # User API Testing – JSONPlaceholder
+## 💡 Background
+This project is part of my transition from mobile and network testing 
+to software QA, applying existing testing experience into API validation.
 
 ## 📌 Description
 This project demonstrates basic API testing using Postman, covering CRUD operations (Create, Read, Update, Delete) on the JSONPlaceholder public API.
