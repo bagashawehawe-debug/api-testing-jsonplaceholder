@@ -3,6 +3,15 @@
 ## 📌 Description
 This project demonstrates basic API testing using Postman, covering CRUD operations (Create, Read, Update, Delete) on the JSONPlaceholder public API.
 
+## 🧠 Test Strategy
+This API testing project focuses on validating CRUD operations using Postman. 
+Testing approach includes:
+
+- Positive testing for valid requests
+- Negative testing for invalid or empty inputs
+- Response validation to ensure correct structure and data
+- Status code verification for each endpoint
+
 ## 🛠 Tools
 - Postman
 
