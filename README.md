@@ -19,15 +19,15 @@ This project demonstrates basic API testing using Postman, covering CRUD operati
 - DELETE /users/1 → Delete user
 
 ## 🧪 Test Scenarios
-- Verify GET /users/1 returns valid user data
-- Verify POST /users creates new user with status 201
-- Verify PUT /users/1 updates user data correctly
-- Verify DELETE /users/1 returns success status
+- Verify GET endpoint returns correct user data
+- Verify POST endpoint creates a new user
+- Verify PUT endpoint updates existing user data
+- Verify DELETE endpoint removes user successfully
 
-## ## 📊 Validation Performed
-- Status code validation (200, 201, 204)
-- Response structure validation
-- Data existence validation (id, name)
+## 📊 Validation Performed
+- Status code validation
+- Response body validation
+- Data existence check
 - Basic negative testing
 
 ## ✅ Test Results
@@ -36,10 +36,10 @@ All test cases executed successfully and passed.
 ## 📁 Project Files
 - Postman Collection (.json)
 
-## 💡 Notes
-This project focuses on validating API behavior using basic test scripts in Postman. 
-The goal is to simulate real QA testing scenarios such as validating response data, 
-status codes, and handling edge cases.
+## 💡 QA Notes
+This project focuses on validating API behavior and ensuring endpoints respond correctly 
+under different conditions. Testing includes both positive and basic negative scenarios 
+to simulate real QA practices.
 
 ## 👤 Author
 Muhammad Bagas Hardjawinangun
