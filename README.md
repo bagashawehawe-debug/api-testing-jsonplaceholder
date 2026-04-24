@@ -18,6 +18,17 @@ This project demonstrates basic API testing using Postman, covering CRUD operati
 - PUT /users/1 → Update user
 - DELETE /users/1 → Delete user
 
+ ## 🧪 Test Scenarios
+- Verify user detail endpoint returns correct data
+- Verify user creation returns status 201
+- Verify update endpoint modifies user data
+- Verify delete endpoint returns success status
+
+## 📊 Validation Performed
+- Status code validation
+- Response body validation
+- Data type validation
+
 ## ✅ Test Results
 All test cases executed successfully and passed.
 
